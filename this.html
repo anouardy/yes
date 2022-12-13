@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="that.css">
+   <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cairo&family=Island+Moments&family=Jomhuria&family=Josefin+Sans&family=Open+Sans:ital,wght@0,300;1,300&family=Pontano+Sans&family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cairo&family=Hanken+Grotesk&family=Island+Moments&family=Jomhuria&family=Josefin+Sans&family=Open+Sans:ital,wght@0,300;1,300&family=Permanent+Marker&family=Pontano+Sans&family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script  scr="typed.js"></script>
+
+
+   <title>Document</title>
+</head>
+<body>
+   <nav class="navigation">
+      <a href="#" class="logo">Depr<span>ession</span></a>
+      <div class="list">
+         <ul>
+            <li><a href="#">NO:Home</a></li>
+            <li><a href="#">NO:information</a></li>
+            <li><a href="#">NO:contact</a></li>
+            <li><a class="this" href="#">Let me Alone</a></li>
+         </ul>
+      </div>
+      <img  class="btn" src="btn.png" alt="">
+   </nav>
+  
+   <section class="sectiona">
+      <div class="text">
+         <h3>Depr<span>essed</span></h3>
+         <h4 class="typed"></h4>
+         <h4>sorry but ,<span>you will not GET me !</span></h4>
+      </div>
+   </section>
+   <header class="headera">
+      
+   </header>
+   <script>
+      var typed = new Typed('.typed', {
+strings: [' HARD to Control Me', 'TENACIOUS',"NOTHING to achieve"],
+typeSpeed:70,
+backSpeed:70,
+loop:true
+});
+</script>
+<script>
+   const menuHamburger = document.querySelector(".btn")
+   const navLinks = document.querySelector(".list")
+
+   menuHamburger.addEventListener('click',()=>{
+   navLinks.classList.toggle('mobile-menu')
+   })
+</script>
+   
+</body>
+</html>
